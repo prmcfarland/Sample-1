@@ -1,0 +1,2353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns10111001101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0xf9a11c">
+  <layouts>
+    <layout name="npnxnanbsnfns10111001101" font="Lato" controllayout="npnxnanbsnfns10111001101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
+    <layout name="pxabnsnfns10111001101" font="Lato" controllayout="pxabnsnfns10111001101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
+    <layout name="npxnabnsnfns10111001101" font="Lato" controllayout="npxnabnsnfns10111001101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
+    <layout name="npnxnanbnsnfns10111001101" font="Lato" controllayout="npnxnanbnsnfns10111001101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
+    <layout name="pxabnsnfns10111001100" font="Lato" controllayout="pxabnsnfns10111001100" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
+    <layout name="pnxanbsnfns00001001101" font="Lato" controllayout="pnxanbsnfns00001001101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
+    <layout name="pxabnsnfns00001001101" font="Lato" controllayout="pxabnsnfns00001001101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
+    <layout name="pnxanbnsnfns10111001101" font="Lato" controllayout="pnxanbnsnfns10111001101" colorscheme="npxnabnsnfns10111001101" string_table="npxnabnsnfns10111001101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Skyline Curriculum Kickoff Course: Advanced Algebra Session 1 Math" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="transcript" value="true" group="sidebar" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Lato" />
+            </options>
+          </option>
+          <option name="settings" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icontext" />
+          <option name="previous" value="icontext" />
+          <option name="submit" value="icontext" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111001100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxanbsnfns00001001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns10111001101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npxnabnsnfns10111001101">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9A11C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="94" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9A11C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C7C7C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9A11C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npxnabnsnfns10111001101">
+      <string id="three_image_items">items</string>
+      <string id="three_image_viewed">viewed</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_item">item</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="togglezoom">Switch zoom modes</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Transcript</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Roboto">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5dotucyBE4E.6eRej8HfC88" displaytext="Welcome" expand="false" type="slide" />
+        <slidelink slideid="_player.5dotucyBE4E.6QWvObAGMfk" displaytext="Session Materials" expand="false" type="slide" />
+        <slidelink slideid="_player.5dotucyBE4E.6kPYLj4nN9w" displaytext="Agenda" expand="false" type="slide" />
+        <slidelink slideid="_player.5dotucyBE4E.6SkOoCFfUhx" displaytext="Learning Objectives" expand="false" type="slide" />
+        <slidelink slideid="_player.5dotucyBE4E.6kC8ET3UFvf" displaytext="What principles drove the design of this curriculum? " expand="false" type="slide" />
+        <slidelink slideid="_player.5dotucyBE4E.61acDDlAemj" displaytext="What practices will I see?" expand="false" type="slide" />
+        <slidelink slideid="_player.5dotucyBE4E.5bz6l9t4Rjl" displaytext="Set Your Learning Goals" expand="false" type="slide" />
+        <slidelink slideid="_player.5dotucyBE4E.6I1UlfQeTV4" displaytext="Core Activities: Lesson Deep Dive" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5dotucyBE4E.6DQA77gYcdX" displaytext="Teaching Cycle" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.5hb0ZPyNvf2" displaytext="Brutus Bites Back" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.6349eG8zWeZ" displaytext="Launch" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.6dao35L2L6Z" displaytext="Standards for Mathematical Practice" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.5ool5atjEMA" displaytext="On Your Own" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.5drC031ES7z" displaytext="Comparison" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.6ZmENNxfly2" displaytext="Similarities and Differences" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.6APrgHfe9Ta" displaytext="What Do You Think" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.5za9NByozKr" displaytext="Notation" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.6EbmRjcguzX" displaytext="Domain and Range" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.5pM044YhNHg" displaytext="Explore" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.5gbMcSHcWd3" displaytext="Group Work" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.5hW1Ham3Z0P" displaytext="Discuss" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.6imVk6GxjM6" displaytext="Class Discussion" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5dotucyBE4E.5uRSkbjcAdD" displaytext="Core Activities: Reflection &amp;amp; Research" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5dotucyBE4E.6Ry2OOgQ5Jy" displaytext="Role of the Teacher/Role of the Student" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.6izSEIHdWKL" displaytext="Reflective Questions" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.5agS3TfRNSF" displaytext="Orchestrating Productive Discussions" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.684lEcVdVBH" displaytext="Activity: Five Practices" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.6DMQWhR8oPU" displaytext="NCTM Effective Teaching Practices" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.6ZCmkm9tBTn" displaytext="Teacher Facilitation Guide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5dotucyBE4E.6ElyIPFtEaQ" displaytext="Assessment and Closing" expand="false" type="slide">
+          <links>
+            <slidelink slideid="_player.5dotucyBE4E.5tfTP1BiNgt" displaytext="Design Principles" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.62B6sWlCF7t" displaytext="Key Practices" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.6o3pZQr5Eyw" displaytext="Share" expand="false" type="slide" />
+            <slidelink slideid="_player.5dotucyBE4E.6H1pf9G94KS" displaytext="Closing" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="5dotucyBE4E.6eRej8HfC88" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Welcome to the Skyline Mathematics Curriculum Kickoff. This is our first session, which will introduce you to the defining principles and practice of the Curriculum, and how they manifest in the Curriculum materials."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6QWvObAGMfk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In each Kickoff session of the Skyline Mathematics Curriculum, we’ll use curriculum materials that can be accessed through Safari Montage and your Kickoff Guide. Click each tab to access your materials and learn more.  Click NEXT when you are ready to continue."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt1,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt1,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6kPYLj4nN9w" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Here’s the agenda for this first session. In the session, we’ll go through several core activities, including a lesson deep dive, research, and a deep dive reflection. At the end, we’ll also do a reflection on the principles and practices of the Curriculum and how they relate to what we learned. You can also find the agenda for this and all other sessions in your handouts."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6SkOoCFfUhx" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="At the end of this session, you will describe the defining principles and key practices of the Skyline Mathematics Curriculum and how they manifest in the Curriculum materials."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6kC8ET3UFvf" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Several principles helped drive the design of this Curriculum. At the center is the belief that every learner deserves a pathway to high achievement. As we go through the session, keep these principles in mind.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="When you’re done looking over the principles, click NEXT to continue."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.61acDDlAemj" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Here are some key practices within the Curriculum. We’ll be looking at these key practices and how they’re present in the lessons and activities. Throughout the session, we’ll dig more into them to develop a deeper understanding of what they look like in practice and how they support student learning. &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Before you move on, take a moment to consider these practices. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.5bz6l9t4Rjl" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Before we begin the session, we’re going to take a moment to set a learning goal. Considering the objective, agenda, principles, and key practices, what do you hope to gain from this session? &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="Roboto" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Type your learning goal onto the board on the screen. When you’re done, click NEXT to continue. "&gt;
+        &lt;Style FontFamily="Roboto" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6I1UlfQeTV4" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In this activity, we’re going to take a deep dive into one of the lessons in the Curriculum. Each lesson has a task that follows the structure of the teaching cycle, which you’ll get to experience soon. As you go through this experience, try to engage with it as both a teacher and a student. What roles do each play throughout the different phases?&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt2,00" LinkColor="lt2,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt2,00" LinkColor="lt2,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="10"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Now that we’ve learned a bit about the key practices and principles in the Curriculum, we get to see them in action. In this part of the session, you will do a deep dive into a lesson from the Curriculum and you’ll get to experience a lesson as a student would. Remember that you can follow along with the lesson and access all the necessary materials for it in your Kickoff Guide, which I will direct you to as needed. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt2,00" LinkColor="lt2,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6DQA77gYcdX" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Throughout the Curriculum, there may be “Learning to Learn” slates in the lesson playlists. These are intentionally placed in the Curriculum to support implementation. This Teaching Cycle could be used as a “Learning to Learn” slate. &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="There are three phases of the Teaching Cycle: Launch, Explore, and Discuss. To see the purpose of each phase, click on the corresponding word in the cycle. &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Take your time reading over these different purposes. When you’re ready, click NEXT to continue. &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.5hb0ZPyNvf2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="We’re going to see the Teaching Cycle in action with a task from a lesson. This task is called “Brutus Bites Back.” Please access this task in your handouts through the link on the screen.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Once you have the task ready to go, click NEXT to continue. "&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6349eG8zWeZ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The first phase of the Teaching Cycle is the Launch phase. Every lesson in the Curriculum will include this visual to begin a task and signal the start of the Launch phase."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6dao35L2L6Z" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="There are two standards for mathematical practice associated with this lesson and task. During the task, you’ll compare two different situations and note the features of each situation. More detail information about how these standards are used in the task can be found in the Teacher Facilitation Guide."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.5ool5atjEMA" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Now, take some time to work on the task on your own. Read about Carlos and Clarita and their business caring for pets. When you’re done, complete the first three questions.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="As you work, think about what you need to consider as you answer these questions. What are the variables in each graph? Would a table of values be helpful in writing the equations?&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="When you’re done with the questions, you can come back and click NEXT to continue.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.5drC031ES7z" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Here’s a Learning to Learn slate from the Curriculum. These slates exist to highlight timely opportunities for you to implement equitable instructional practices and establish a community of learners. They aren’t in every lesson, but they’re intended to help students develop skills that they can use throughout all lessons.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This slate introduces comparing similarities and differences as a learning strategy.  On the next screen we will put this learning strategy into action.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6ZmENNxfly2" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Let’s compare two potential tables that students might make for the first two questions. What is similar about these two tables? What is different about these two tables? What do these tables tell you about the views of Carlos and Clarita?&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="As you look them over, type any similarities and differences you notice into the boxes on the screen. Try to list 3 to 5 things that are similar and 3 to 5 things that are different. &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="When you’re finished, click NEXT to continue.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6APrgHfe9Ta" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="We’re now at the fourth question in the task. At this point, students should already have some experience with inverse functions, so they should be able to recognize them in this context. &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This question helps them make a connection to that prior experience. &amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.5za9NByozKr" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Here’s the notation that mathematicians use for inverse functions. You’d share this notation with your students at this time and show them how to represent inverse functions with it. This information is necessary for one of the questions at the end of the task."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6EbmRjcguzX" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="At this slate, you should ask your students to find the domain and range of each function. They’ll have time to answer the question, and you may discuss answers as a class afterward. &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You can also type in the domain and range for each function on the screen now. Once you’re done, click NEXT to continue."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.5pM044YhNHg" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="We’re now moving into the Explore phase of the Teaching Cycle. Students will have time to work independently on the rest of the questions in the task."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.5gbMcSHcWd3" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="As your students work, you can monitor their progress. To see the different ways you can monitor your students, click on each box on the screen. &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="After reading through the information, consider what your students should take away from these questions. What is important for them to know? What are some ways they could approach the questions?&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="When you’re ready, click NEXT to continue."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.5hW1Ham3Z0P" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="We’ve reached the Discuss phase of the Teaching Cycle. This is when you’ll bring your students back together to have a whole-class discussion. This discussion will help you achieve the goals of the lesson."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6imVk6GxjM6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Start="0" Color="#000000" Size="100" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="During this time, selected students will share their strategies for making sense of the pattern using different representations. As students share, you can write down anything that is new. Doing this helps you add to your tool box of what you’ll see students do, and is good practice for students. You can also introduce formal terms, definitions, and explanations for concepts and processes here. &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Start="0" Color="#000000" Size="100" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="When you’re in the Discuss phase, it’s important to share an expectation for active engagement. This means listening to the person presenting, taking notes when a new strategy is shared, asking clarifying questions, and making connections to build understanding. You should emphasize these actions to your students, especially at the beginning of the year, to help them join in and be respectful of discussions.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="10"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Start="0" Color="#000000" Size="100" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Using the examples you’ve worked through in this lesson, which company do you think has the better deal? The first one, “Correct!” The K-9 catering company is the better deal. The other company is higher priced and they have a shipping charge.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="23" SpacingBefore="0" SpacingAfter="10"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Start="0" Color="#000000,00" Size="100" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Great work today! You sure have developed your understanding of inverse functions. You’ve shown that you can make sense of problems and preserve in solving them. In this lesson, you were able to look for and make use of structure."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.5uRSkbjcAdD" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="We just completed a Lesson Deep Dive using the Teaching Cycle. Now, we’re going to reflect on the actions of the teacher and the student throughout the lesson."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt2,00" LinkColor="lt2,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6Ry2OOgQ5Jy" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Take a minute to reflect on the lesson you just completed and the role of the teacher and the role of the student in each phase of the Teaching Cycle. Click the link to access the Teaching Cycle: Role of the Teacher, Role of the Student document in your handouts to record your answers.  &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Once you’re done with the reflection, click NEXT to continue."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6izSEIHdWKL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="As you use the Teaching Cycle, there are reflective questions that will help you facilitate the different tasks in the lessons. Click on each word in the Teaching Cycle to see the associated questions. You can also find these questions in the Unit Plan, as well as the Instructional Routines Guidance document.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="As you read through the questions, think about how they connect to the role of the teacher in the different phases of the Teaching Cycle. &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="When you’re done reading through the questions, click NEXT to continue.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.5agS3TfRNSF" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Throughout the sessions, we’ll spend more time on additional key practices that help implement the Curriculum. One of these key practices is the Five Practices for Orchestrating Productive Discussions.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Take a minute to read over these five practices. When you’re done, click NEXT to continue.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.684lEcVdVBH" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="26">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="If you’re familiar with the Five Practices, you may recognize some of their connections to the Teaching Cycle. Drag each practice to its correct phase in the Teaching Cycle, then click SUBMIT to check your answers."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt2,00" LinkColor="lt2,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6DMQWhR8oPU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="27">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Another key practice is the Effective Teaching Practices from the NCTM. They support task implementation, and we’ll look at them more closely in the third session."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6ZCmkm9tBTn" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="28">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Let’s take a few minutes to look through the Teacher Facilitation Guide, or TFG. The TFG for “Brutus Bites Back” is included in your handouts, so please access that now. &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Specifically, focus on the section that provides guidance about the Teaching Cycle, which begins on page 12.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Once you’re done reading over this section, you can come back and continue the session  by clicking NEXT.&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" DefaultTabStop="48" ListLevel="0" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" UnderlineStyle="Normal" ForegroundColor="lt2,00" BackgroundColor="#000000,00" UnderlineColor="#000000,00" Elevation="Normal" Spacing="0" IgnoreKerningTable="False" DisplayCase="AsIs" LanguageId="0" LinkColor="lt2,00"&gt;
+          &lt;Shadow Offset="0x0" Color="#FFFFFF,00" /&gt;
+        &lt;/Style&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6ElyIPFtEaQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="29">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="This is the final section of the session. Before we complete the session, you’ll answer some questions that will help you reflect on your learning and connect it to the principles and practices in the Curriculum."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt2,00" LinkColor="lt2,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.5tfTP1BiNgt" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="30">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Here are the Curriculum design principles that we saw at the start of the session. Click on one of the circles to choose a principle, and use it to answer the prompt at the top of the screen. How did the task from the lesson you just completed align to the principle you selected?&amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="Roboto" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Please type your answer into the box. When you’re done, click NEXT to continue."&gt;
+        &lt;Style FontFamily="Roboto" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.62B6sWlCF7t" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="31">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="We also looked at several key practices at the start of the session. One of them, which we experienced, is the Teaching Cycle. What did you learn about the Teaching Cycle? &amp;#xD;&amp;#xA;"&gt;
+        &lt;Style FontFamily="Roboto" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Type your answer into the box. When you’re done, click NEXT to continue."&gt;
+        &lt;Style FontFamily="Roboto" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6o3pZQr5Eyw" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="32">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Finally, please share something that you learned during this session that you want to remember when the new school year starts.  Type your answer into the box, and when you’re done, click NEXT to complete the session."&gt;
+        &lt;Style FontFamily="Roboto" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="5dotucyBE4E.6H1pf9G94KS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="33">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This is the end of Session 1. Thank you for your participation."&gt;
+        &lt;Style FontFamily="+minor" FontSize="12" ForegroundColor="lt1,00" LinkColor="lt1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
